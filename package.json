@@ -1,7 +1,7 @@
 {
   "name": "encrypt_decrypt_iim_dogo",
 
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "type": "module",
