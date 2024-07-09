@@ -14,6 +14,10 @@ function morseDecrypte(string) {
         return 'The input must be a type string';
     };
 
+    if (string === '') {
+        return 'The input must not be empty';
+    };
+
     var chars = string.split(' ');
     var decryptedChars = [];
 

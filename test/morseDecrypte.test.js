@@ -18,4 +18,11 @@ describe('morseDecrypte', () => {
         expect(morseDecrypte('hello')).toBe('A character is not suported');
     });
 
+    test("make the morseDecrypte of ''", () => {
+        expect(morseDecrypte('')).toBe('The input must not be empty');
+    });
+
+    test("make the morseDecrypte of ", () => {
+        expect(morseDecrypte()).toBe('The input must be a type string');
+    });
 });
