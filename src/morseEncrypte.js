@@ -1,6 +1,6 @@
 /**
  * Encrypte a string to morse code
- * @param {string} string
+ * @param {string} string - The string to encrypt
  * @returns {string} - The encrypted string
  */
 
@@ -13,6 +13,10 @@ function morseEncrypte(string) {
 
     if (typeof string !== 'string') {
         return 'The input must be a type string';
+    };
+
+    if (string === '') {
+        return 'The input must not be empty';
     };
 
     var chars = string.split('');

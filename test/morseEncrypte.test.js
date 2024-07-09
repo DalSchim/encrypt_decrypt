@@ -18,4 +18,8 @@ describe('morseEncrypte', () => {
         expect(morseEncrypte()).toBe('The input must be a type string');
     });
 
+    test("make the decrypteMorse of ''", () => {
+        expect(morseEncrypte('')).toBe('The input must not be empty');
+    });
+
 });
